@@ -1,0 +1,38 @@
+<div class="card">
+    <h2 style="text-align: right; color:rgb(177, 48, 26)" class="card-header">All Available Gadgets</h2>
+  <br>
+  <ul>
+    <p style="color: rgb(58, 80, 51);">
+                    This is all available gadgets.
+        Go to <a routerLink="/sf" routerLinkActive="active">Search page</a>
+        or go to <a routerLink="" routerLinkActive="active">Home</a>
+    </p>
+  
+  </ul>
+
+    <div class="container">
+      <div class="row">
+        
+          <div style="margin-bottom: 10px;" class="col-md-3 col-sm-6" *ngFor="let e of empDetails">
+              <div class="card text-center">
+                  <div class="card-block">
+                      <img src={{e.link}} alt="not found" class="img-fluid">
+                      <div class="card-title>">
+                          <h3>{{e.name}}  {{e.category}}</h3>
+                      </div>
+                      <div class="card-text">Product Id:{{e.id}}<br>Gadget Name:{{e.name}}<br>Price:{{e.price}}<br>Category: {{e.category}}
+                                             <br>Owner :{{e.owner}}<br>Rating:{{e.rating}} </div>
+                      
+                      <input type="submit" class="btn btn-success" *ngIf='!e.isDisabled' value="Add to Bag" (click)="bagItem(e.key);e.isDisabled=true" [disabled]="false">
+                      <input type="submit" class="btn btn-success" *ngIf='e.isDisabled' value="Bagged" (click)="bagItem(e.key);e.isDisabled=false" [disabled]="true">
+                     &nbsp;&nbsp; <input type="submit" class="btn btn-primary" value="Pay" (click)="pay(e.key)">
+                  </div>
+              </div>
+          </div>
+
+      </div>
+    </div>
+  
+
+</div>
+ 

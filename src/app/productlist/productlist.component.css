@@ -1,0 +1,22 @@
+.content { 
+    padding: 16px; 
+  }
+  
+  .content > mat-card { 
+    width: 200px; 
+  }
+  .my-flex-container{
+    border: 2px solid black;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  .my-flex-container-column{
+    border: 2px solid black;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  .my-flex-item{
+    background-color: lightgray;
+    border: 2px dotted grey;
+    height: 48px;
+  }

@@ -1,0 +1,24 @@
+<input style="vertical-align:text-bottom; width: 10%; " class="btn btn-success" type="button" name="add Gadget" value="➕ Add Gadget &nbsp;" (click)='openLogin()' >
+<p style="color: rgb(58, 80, 51);">Here you can add your own gadget that will reflect all over the app. See your <a routerLink="/cart" routerLinkActive="active">Bag Items</a> or go to 
+    <a routerLink="" routerLinkActive="active">Home</a></p>
+
+<div id="loginSectionId" style="display: none;" >
+  
+    <div class="login-card" >
+      <h3 class="admin" style="color:black;">New Gadget</h3>
+      <input class="login-input login-item" type="text" [(ngModel)]="product.id" placeholder="Gadget Id" />
+      <input class="login-input login-item" type="text" [(ngModel)]="product.name" placeholder="Gadget Name"/>
+
+      <input class="login-input login-item" type="text" [(ngModel)]="product.imeino" placeholder="Gadget Imei No"/>
+      <input class="login-input login-item" type="text" [(ngModel)]="product.price" placeholder="Gadget Price"/>
+      <input class="login-input login-item" type="text" [(ngModel)]="product.owner" placeholder="Gadget Owner"/>
+      <input class="login-input login-item" type="text" [(ngModel)]="product.rating" placeholder="Gadget Rating"/>
+      <input class="login-input login-item" type="text" [(ngModel)]="product.category" placeholder="Gadget Category"/>
+      
+      <div class="login-item login-button-div">
+        <input style="width: 20%; background-color:blue;" class="button login-button" type="button" value="➕" (click)='addGadget()'/>
+        <p style="color: darkred;" class="login-close" (click)='openLogin()' >close</p>
+      </div>
+      
+    </div>
+  </div>

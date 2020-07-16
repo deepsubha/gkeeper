@@ -1,0 +1,29 @@
+
+<span>These are the items you showed interests on! move on to purchase or Go to <a routerLink="" routerLinkActive="active">Home</a>. 
+    <hr><br>
+
+    <div *ngIf="item==false;else elseBlock" style="color: red;">Sorry:(  You have not bagged any items yet!</div>
+    
+    <ng-template #elseBlock>
+<mat-card>
+  <mat-card-title>
+      <h1>Your Bagged Items</h1>
+  </mat-card-title>
+  <div *ngFor="let b of baggedItems">
+  <mat-card-subtitle>
+      {{b.name}}
+  </mat-card-subtitle>
+  <mat-card-content>
+      <p>Name : {{b.name}}</p>
+      <p>Price : {{b.price}}</p>
+      <p>Category : {{b.category}}</p>
+      <p>Owner : {{b.owner}}</p>
+  </mat-card-content>
+  <mat-card-actions>
+      <span><input type="submit" class="btn btn-info" value="Pay" (click)="pay(b.key)">
+          <input type="submit" class="btn btn-danger" value="Delete" (click)="deletRecord(b.KeyProduct,b.key)"></span><hr>
+  </mat-card-actions>
+  </div>
+</mat-card>
+</ng-template>
+

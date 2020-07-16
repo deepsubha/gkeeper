@@ -1,0 +1,34 @@
+[
+    {"id":"p01","name":"Samsung","price":"20000","category":"tv","imeino":"9065","owner":"subhajit","rating":"3.5"},
+    {"id":"p02","name":"Redmi","price":"15000","category":"mobile","imeino":"9247","owner":"sourav","rating":"4.2"},
+    {"id":"p03","name":"Dell","price":"40000","category":"laptop","imeino":"6396","owner":"navendu","rating":"4.8"},
+    {"id":"p04","name":"Apple","price":"80000","category":"keyboard","imeino":"5294","owner":"subhadeep","rating":"3.9"},
+    {"id":"p05","name":"Ipad","price":"60000","category":"tab","imeino":"2091","owner":"subhayan","rating":"4.8"},
+
+    {"id":"p06","name":"Zebronics","price":"300","category":"mouse","imeino":"8720","owner":"kaustav","rating":"3.5"},
+    {"id":"p07","name":"iball","price":"700","category":"keyboard","imeino":"8944","owner":"sourav","rating":"4.0"},
+    {"id":"p08","name":"creative","price":"4500","category":"speaker","imeino":"9098","owner":"subhadeep","rating":"4.8"},
+    {"id":"p09","name":"skulcandy","price":"1000","category":"headphone","imeino":"2323","owner":"subhadeep","rating":"4.9"},
+    {"id":"p10","name":"hp","price":"850","category":"pendrive","imeino":"9073","owner":"subhayan","rating":"4.8"},
+
+    {"id":"p11","name":"lenovo yoga","price":"42900","category":"laptop","imeino":"2048","owner":"anirban","rating":"4.5"},
+    {"id":"p12","name":"moto g5 plus","price":"15000","category":"mobile","imeino":"7878","owner":"abhik","rating":"4.2"},
+    {"id":"p13","name":"samsung","price":"15000","category":"fridge","imeino":"9991","owner":"anjulata","rating":"4.3"},
+
+    {"id":"p01","name":"Samsung","price":"20000","category":"tv","imeino":"9065","owner":"subhajit","rating":"3.5"},
+    {"id":"p02","name":"Redmi","price":"15000","category":"mobile","imeino":"9247","owner":"sourav","rating":"4.2"},
+    {"id":"p03","name":"Dell","price":"40000","category":"laptop","imeino":"6396","owner":"navendu","rating":"4.8"},
+    {"id":"p04","name":"Apple","price":"80000","category":"keyboard","imeino":"5294","owner":"subhadeep","rating":"3.9"},
+    {"id":"p05","name":"Ipad","price":"60000","category":"tab","imeino":"2091","owner":"subhayan","rating":"4.8"},
+
+    {"id":"p06","name":"Zebronics","price":"300","category":"mouse","imeino":"8720","owner":"kaustav","rating":"3.5"},
+    {"id":"p07","name":"iball","price":"700","category":"keyboard","imeino":"8944","owner":"sourav","rating":"4.0"},
+    {"id":"p08","name":"creative","price":"4500","category":"speaker","imeino":"9098","owner":"subhadeep","rating":"4.8"},
+    {"id":"p09","name":"skulcandy","price":"1000","category":"headphone","imeino":"2323","owner":"subhadeep","rating":"4.9"},
+    {"id":"p10","name":"hp","price":"850","category":"pendrive","imeino":"9073","owner":"subhayan","rating":"4.8"},
+
+    {"id":"p11","name":"lenovo yoga","price":"42900","category":"laptop","imeino":"2048","owner":"anirban","rating":"4.5"},
+    {"id":"p12","name":"moto g5 plus","price":"15000","category":"mobile","imeino":"7878","owner":"abhik","rating":"4.2"},
+    {"id":"p13","name":"samsung","price":"15000","category":"fridge","imeino":"9991","owner":"anjulata","rating":"4.3"}
+    
+]
