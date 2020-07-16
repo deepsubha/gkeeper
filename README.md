@@ -1,6 +1,6 @@
 ## Check The App
 
-[Click] here to check it out. Cheers![https://gadget-keeper.vercel.app/]
+[Click](https://gadget-keeper.vercel.app/) here to check it out. Cheers!
 
 # GKeeper
 
