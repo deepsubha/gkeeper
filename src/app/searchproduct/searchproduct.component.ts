@@ -29,7 +29,7 @@ export class SearchproductComponent {
       this.productDetails=[];
       console.log(customers[0].name);
       for(var i=0;i<customers.length;i++){
-        if(customers[i].name == this.id || customers[i].category == this.id){
+        if(customers[i].name.toUpperCase() == this.id.toUpperCase() || customers[i].category.toUpperCase() == this.id.toUpperCase()){
           let p=new Product();
           p=customers[i];
           this.productDetails.push(p);

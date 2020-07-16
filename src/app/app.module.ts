@@ -42,7 +42,7 @@ import { ToastrModule } from 'ngx-toastr';
     MatToolbarModule,
     MatButtonModule,
     ToastrModule.forRoot({
-      timeOut: 700,
+      timeOut: 1300,
       preventDuplicates: false,
     })
   ],
