@@ -1,8 +1,8 @@
-## Check The App
+# Check The App Live
 
-[Click](https://gadget-keeper.vercel.app/) here to check it out. Cheers!
+[Click](https://gadget-keeper.vercel.app/) here to check it out. Cheers in advance!
 
-# GKeeper
+## GKeeper
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.1.
 
