@@ -1,4 +1,4 @@
-# Check The App
+## Check The App
 
 [Click] here to check it out. Cheers![https://gadget-keeper.vercel.app/]
 
